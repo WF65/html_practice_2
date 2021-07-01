@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="content/style/fakebook.css" rel="stylesheet" />
+</head>
+<body>
+    <span class="title">fakebook</span>
+    <br />
+    <span class="title2">Registration</span>
+    <br />
+    <span class="title3">It is safe and it will always be!</span>
+    <br />
+
+    <form class="form1">
+        <span class="formTitle">None-Important Information</span>
+        <br />
+        <input type="text" name="firstname" placeholder="First Name" class="input" />
+        <input type="text" name="lastname" placeholder="Last Name" class="input" />
+        <br />
+        <input type="email" name="email" placeholder="Your email" class="input" />
+        <input type="tel" name="phonenumber" placeholder="Phone Number" class="input" />
+        <br />
+        <input type="password" name="password" placeholder="Your Password" class="input" />
+        <input type="url" name="website" placeholder="Website" class="input" />
+        <br />
+        <span class="birthday">Birthday</span>
+        <input type="datetime" name="birthday" placeholder="05/09/2014 01:58 pm" class="birthDate" />
+        <br />
+        <input type="radio" name="gender" class="genderselect"/>
+        <span class="gender">Female</span>
+        <input type="radio" name="gender" class="genderselect"/>
+        <span class="gender">Male</span>
+        <input type="radio" name="gender" class="genderselect"/>
+        <span class="gender">other</span>
+    </form>
+
+    <form class="form2">
+        <span class="formTitle">Important Information *required</span>
+        <br />
+        <select class="input" name="country" required tabindex="1">
+            <option value="0">Country</option>
+            <option value="USA">USA</option>
+            <option value="Russia">Russia</option>
+            <option value="China">China</option>
+        </select>
+        <input type="text" name="village" placeholder="Village" required tabindex="2" class="input" />
+        <input type="text" name="district" placeholder="District" required tabindex="3" class="input" />
+        <br />
+        <input type="text" name="street" placeholder="street" required tabindex="4" class="input" />
+        <input type="text" name="Nr" placeholder="Nr" required tabindex="5" class="smallinput" />
+        <input type="text" name="Floor" placeholder="Floor" required tabindex="6" class="smallinput" />
+        <input type="text" name="Apnr" placeholder="Ap Nr" required tabindex="7" class="smallinput" />
+        <p class="formTitle2">Door Color</p>
+        <select class="colorselect" name="doorcolor" required tabindex="8">
+            <option value="pink" class="pink">pink</option>
+            <option value="blue" class="blue">blue</option>
+        </select>
+        <input type="text" name="watermeternr" placeholder="Water Meter Nr" required tabindex="9" class="input" />
+        <select class="input" name="size" required tabindex="10">
+            <option value="0">Aunt Panties' size'</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <p class="formTitle2">More Personal Information </p>
+        <textarea id="textarea" placeholder="Give us more information!" ></textarea>
+    </form>
+
+    <input type="button" name="clear" value="Clear Form" class="clear" />
+    <input type="button" name="register" value="Register" class="register" />
+</body>
+</html>

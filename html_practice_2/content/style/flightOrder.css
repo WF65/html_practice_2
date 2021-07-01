@@ -1,0 +1,118 @@
+﻿*{
+    font-family:Calibri;
+    background-color:lightpink;
+}
+
+
+.form{
+    width:40%;
+    font-size:15px;
+}
+
+
+.form .title {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form .leftText{
+    display:inline-block;
+    font-style:italic;
+    margin-left:3%;
+    width:45%;
+}
+
+    .form .rightText {
+        display: inline-block;
+        font-style: italic;
+        margin-left:3%;
+        width:45%;
+
+    }
+
+.form .leftInput{
+    background-color:white;
+    margin-left:3%;
+    width:45%;
+}
+
+.form .rightInput{
+    background-color:white;
+    margin-left:3%;
+    width:45%;
+}
+
+.form .checkbox{
+    margin-left:52%;
+}
+
+.form .check{
+    font-style:italic;
+}
+
+.form .leftSmallInput{
+    margin-left:2%;
+    width:20%;
+    background-color:white;
+}
+
+    .form .rightSmallInput {
+        margin-left: 1%;
+        width: 20%;
+        background-color: white;
+    }
+
+
+
+    .form .leftsmallText1 {
+        display: inline-block;
+        font-style: italic;
+        margin-left: 3%;
+        width: 14%;
+    }
+
+    .form .leftsmallText2 {
+        display: inline-block;
+        font-style: italic;
+        margin-left: 1%;
+        width: 14%;
+    }
+    .form .leftsmallText3 {
+        display: inline-block;
+        font-style: italic;
+        margin-left: 2%;
+        width: 12%;
+    }
+
+    .form .leftSmallInput1 {
+        margin-left: 3%;
+        width: 11%;
+        background-color: white;
+    }
+
+    .form .leftSmallInput2 {
+        margin-left: 1%;
+        width: 11%;
+        background-color: white;
+    }
+
+    .form .leftSmallInput3 {
+        margin-left: 1%;
+        width: 11%;
+        background-color: white;
+    }
+
+    .form .rightInput2 {
+        background-color: white;
+        margin-left: 2%;
+        width: 45%;
+    }
+
+    .form .btnSearch{
+        background-color:lightgray;
+        width:30%;
+        margin-top:1%;
+        margin-left:68%;
+    }

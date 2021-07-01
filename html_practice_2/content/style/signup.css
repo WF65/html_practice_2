@@ -1,0 +1,99 @@
+﻿* {
+    font-family: Calibri
+}
+
+.header {
+    text-align: center;
+}
+
+.form {
+    width: 40%;
+    position: relative;
+    margin: auto;
+}
+
+    .form .small-input-left {
+        font-size: 15px;
+        width: 45%;
+        position: relative;
+        left: 1%;
+        margin-bottom: 2%;
+        height: 20px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    .form .small-input-right {
+        font-size: 15px;
+        width: 45%;
+        position: relative;
+        left: 8%;
+        margin-bottom: 2%;
+        height: 20px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    .form .normal-input {
+        font-size: 15px;
+        width: 100%;
+        position: relative;
+        left: 1%;
+        margin-bottom: 2%;
+        height: 20px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    .form .checkbox {
+        height: 10px;
+    }
+
+    .form .check {
+        font-weight: bolder;
+        font-size: 14px;
+        height:20px;
+        background-color: white;
+        border: none;
+        width: 15%;
+    }
+
+    .form .btnRegister {
+        font-size: 15px;
+        width: 45%;
+        position: relative;
+        left: 1%;
+        margin-bottom: 2%;
+        height: 30px;
+        border-radius: 5px;
+        color:white;
+        background-color:lightblue;
+        border:none;
+    }
+
+    .form .btnSignIn {
+        font-size: 15px;
+        width: 45%;
+        position: relative;
+        left: 8%;
+        margin-bottom: 2%;
+        height: 30px;
+        border-radius: 5px;
+        color: white;
+        background-color: orange;
+        border: none;
+    }
+
+#terms {
+    font-size: 10px;
+    display:inline-block;
+    width:75%;
+    height:30px;
+}
+
+#register {
+    font-size: 10px;
+    background-color: lightblue;
+    border-radius: 4px;
+}
+

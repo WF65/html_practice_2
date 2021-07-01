@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="content/style/flightOrder.css" rel="stylesheet" />
+</head>
+<body>
+    <form class="form">
+        <h1 class="title">FLIGHT ORDER</h1>
+        <br />
+        <span class="leftText">From</span>
+        <span class="rightText">To</span>
+        <br />
+        <select name="from" class="leftInput">
+            <option value="0">enter a city</option>
+            <option value="Atlanta">Atlanta</option>
+            <option value="LA">LA</option>
+            <option value="NewYork">New york</option>
+        </select>
+        <select class="rightInput" name="from">
+            <option value="0">enter a city</option>
+            <option value="Atlanta">Atlanta</option>
+            <option value="LA">LA</option>
+            <option value="NewYork">New york</option>
+        </select>
+        <br />
+        <input type="checkbox" name="preferDirects" class="checkbox" />
+        <span class="check">Prefer directs</span>
+        <br />
+        <span class="leftText">Departure date</span>
+        <span class="rightText">Time Interval</span>
+        <br />
+        <input type="date" name="departureDate" placeholder="09.06.2014" class="leftInput" />
+        <input type="time" name="timeIntervalDeparture1" placeholder="00:20" class="leftSmallInput" />
+        <input type="time" name="timeIntervalDeparture2" placeholder="05:20" class="rightSmallInput" />
+        <br />
+        <span class="leftText">Return date</span>
+        <span class="rightText">Time Interval</span>
+        <br />
+        <input type="date" name="returnDate" placeholder="13.06.2014" class="leftInput" />
+        <input type="time" name="timeIntervalDeparture1" placeholder="16:20" class="leftSmallInput" />
+        <input type="time" name="timeIntervalDeparture2" placeholder="22:20" class="rightSmallInput" />
+        <br />
+        <span class="leftsmallText1">12+</span>
+        <span class="leftsmallText2">2-12</span>
+        <span class="leftsmallText3">0-2</span>
+        <span class="rightText">Choose class</span>
+        <br />
+        <input type="number" name="year12" placeholder="0" class="leftSmallInput1" />
+        <input type="number" name="year2" placeholder="0" class="leftSmallInput2" />
+        <input type="number" name="year0" placeholder="0" class="leftSmallInput3" />
+        <select class="rightInput2" name="from">
+            <option value="Economy">Economy</option>
+            <option value="Bussiness">Bussiness</option>
+            <option value="Platium">Platium</option>
+        </select>
+        <br />
+        <input type="submit" name="Search" value="Search" class="btnSearch" />
+        <br />
+    </form>
+    
+
+</body>
+</html>

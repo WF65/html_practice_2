@@ -1,0 +1,184 @@
+﻿*{
+    background-color:darkslateblue;
+    font-family:Calibri;
+    width:98%;
+}
+
+.title{
+    display:inline-block;
+    font-size:100px;
+    color:white;
+    font-weight:bolder;
+    text-align:center;
+}
+
+.title2 {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.title3 {
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.form1 {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 35%;
+    height: 250px;
+    margin-top: 2%;
+    font-size: 15px;
+    position:relative;
+    bottom:68px;
+}
+
+    .form1 .formTitle {
+        display: inline-block;
+        font-size: 15px;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .form1 .input{
+        display:inline-block;
+        width:44%;
+        margin-left:2%;
+        height:20px;
+        margin-top:1%;
+        background-color:white;
+    }
+
+    .form1 .birthday {
+        display: inline-block;
+        font-size: 15px;
+        color: white;
+        font-weight: bolder;
+        margin-top:1%;
+        margin-left:2%;
+    }
+
+    .form1 .birthDate {
+        display: inline-block;
+        width: 90%;
+        margin-left: 2%;
+        height: 20px;
+        margin-top: 1%;
+        background-color: white;
+    }
+
+    .form1 .gender {
+        display: inline-block;
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        width:10%;
+        margin-top: 1%;
+        margin-left: 2%;
+        margin-bottom:2%;
+    }
+
+    .form1 .genderselect {
+        display: inline-block;
+        width: 15px;
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+
+.form2 {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 60%;
+    height: 250px;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 15px;
+}
+
+.form2 .formTitle {
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.form2 .input {
+    display: inline-block;
+    width: 29%;
+    margin-left: 2%;
+    height: 20px;
+    margin-top:0px;
+    background-color: white;
+}
+
+    .form2 .colorselect {
+        display: inline-block;
+        width: 29%;
+        margin-left: 2%;
+        height: 20px;
+        margin-top: 0px;
+        background-color: pink;
+        color: pink;
+    }
+
+        .form2 .colorselect .pink {
+            background-color: pink;
+            color: pink;
+        }
+
+        .form2 .colorselect .blue {
+            background-color: blue;
+            color: blue;
+        }
+
+    .form2 .smallinput {
+        display: inline-block;
+        width: 13%;
+        margin-left: 2%;
+        height: 20px;
+        margin-top: 1%;
+        background-color: white;
+    }
+
+    .form2 .formTitle2 {
+        font-size: 15px;
+        color: white;
+        font-weight: bolder;
+        margin-left:2%;
+    }
+
+#textarea {
+    background-color: white;
+    width:96%;
+    margin-left: 2%;
+    margin-bottom: 1%
+}
+
+.clear {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 35%;
+    margin-top: 2%;
+    position: relative;
+    bottom: 68px;
+}
+
+.register {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 2%;
+    position: relative;
+    bottom: 68px;
+}

@@ -1,0 +1,98 @@
+﻿*{
+    font-family:Calibri;
+    background-color:lightgray
+}
+
+h1{
+    color:darkblue;
+}
+
+.form1{
+    display:inline-block;
+    width:30%;
+    margin:2%;
+    min-height:40%
+}
+
+.form1 .input{
+    width:90%;
+    margin-bottom:2%;
+}
+
+.form1 .btnRegister{
+    color:darkblue;
+    border:1px solid darkblue;
+    position:relative;
+    left:53%;
+    width:40%;
+}
+.form2 {
+    display: inline-block;
+    width: 30%;
+    margin: 2%;
+    background-color: darkblue;
+    min-height: 40%
+}
+
+    .form2 .input {
+        width: 90%;
+        margin-bottom: 2%;
+        margin-left:3%;
+    }
+    .form2 .checkbox {
+        margin-left: 3%;
+        margin-bottom: 13%
+    }
+    .form2 .check{
+
+        border:none;
+        background-color:darkblue;
+        color:white;
+        font-weight:bold;
+        font-size:12px;
+        position:relative;
+        bottom:2%;
+    }
+
+    .form2 .btnLogin {
+        color: darkblue;
+        border: 1px solid darkblue;
+        position: relative;
+        left: 18%;
+        width: 40%;
+
+    }
+
+#ayn{
+    font-size:20px;
+    font-weight:bolder;
+    color:gray;
+}
+
+#register {
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+#login{
+    background-color:darkblue;
+    color:white;
+    font-weight:bolder;
+    margin-left:3%;
+    font-size:20px;
+}
+
+#fp{
+    background-color:darkblue;
+}
+
+#forget {
+    background-color: darkblue;
+    color: white;
+    font-weight: bolder;
+    font-size:12px;
+    position:relative;
+    left:64%;
+    bottom:27px;
+}
